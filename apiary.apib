@@ -1,0 +1,48 @@
+FORMAT: 1A
+HOST: http://limerence.bittersweet.id/
+
+# limerence
+
+A [very simple] dummy GET API with a lot of dummy data.
+
+## Feed [/feeds]
+
+### List All Feeds [GET]
+
+#### Headers: 
+
+x-limerence-key : sugar-knife-59ef758f-993f-481a-b7ff-abb5ae04af91
+
++ Response 200 (application/json)
+
+        {
+            "status": "OK",
+            "message": null,
+            "object": {
+                "current_page": 1,
+                "data": [
+                    {
+                        "uuid": "86ec0bad-db43-3a30-80c3-ce75500c6fb0",
+                        "created_by_name": "Eva Aisyah Permata S.E.",
+                        "created_by_photo_profile": "https://lorempixel.com/128/128/cats/?19105",
+                        "feed_content": "Pat! Where are you?' And then a row of lodging houses, and behind it, it occurred to her daughter 'Ah, my dear! I shall only look up in such confusion that she had got to do,' said the March Hare. 'He denies it,' said Alice, as she wandered about for a li",
+                        "feed_image": "https://lorempixel.com/736/867/city/?88876",
+                        "feed_location": "Samarinda",
+                        "feed_comment_count": 10,
+                        "created_at": "2017-12-08 00:48:14",
+                        "created_at_description": "8 jam yang lalu."
+                    },
+                    ],
+                "first_page_url": "http://limerence.bittersweet.id/feeds?page=1",
+                "from": 1,
+                "last_page": 100,
+                "last_page_url": "http://limerence.bittersweet.id/feeds?page=100",
+                "next_page_url": "http://limerence.bittersweet.id/feeds?page=2",
+                "path": "http://limerence.bittersweet.id/feeds",
+                "per_page": 50,
+                "prev_page_url": null,
+                "to": 50,
+                "total": 5000
+            },
+            "code": 200
+        }
